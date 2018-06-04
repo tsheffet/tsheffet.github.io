@@ -2,9 +2,9 @@ body {color:red;font-family:arial, helvetica;}
 header {width:50%;border:solid; line-height:50%}
 
 nav{color:#00FF00;background-color: rgb(247,209,210);text-indent:50px;}
-nav ol {background-color:fuchsia;}
-nav ol li{background-color: purple; float: left;}
-nav ol>li{background-color:yellow;}
+nav ol {background-color:grey;}
+nav ol li{background-color: black;margin: auto; float: left;}
+nav ol>li{background-color:black;}
 div#left{width:30%;border:solid;}
 main strong {color:purple;font-size:36px;margin-left:50px;}
 main img {height:150px;width:125px;}
