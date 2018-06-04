@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>mid-template.html</title>
+    <style>table, th, td {border:solid thin}
+    div.a {
+    text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTML5 & CSS3 for the Real World: 2nd</h1>
+    <h3>Chapters 2 & 3</h3>
+
+    <p>1.In the <abbr title="Site Point">SP</abbr> textbook (3rd edition 2017 <small><sub>Copy</sub></small>) are some text and other elements that are not intended to affect the structure of your web<br> pages, but they <u>do</u> <del>not</del> add <strong>extra</strong> information to the pages — they are known as <i>semantic</i> markup.</p>
+
+    <p>2.<abbr title="Hypertext Markup Language">HTML</abbr> elements are <del>not</del> used to describe the structure of the page (e.g. headings, subheadings, paragraphs).
+        <p>Three types of HTML lists:</p>
+
+
+    <ul><li>Unordered lists (create this same unordered list here)</li>
+                <ol>
+                <li>use numbers</li>
+                <li>numbers increment in list</li>
+        </ol>
+    </ul>
+<ul>
+        <li> Unordered lists can have nested lists</li>
+    </ul>
+    <dl>
+    <ol>
+
+    <dt id="ordered"><li>Ordered lists (create this same ordered list here)</li></dt>
+
+            <ul>
+                <li>use bullets</li>
+                <li>customizable bullets</li>
+
+            </ul>
+        <li>Ordered lists can have nested lists</li>
+    </ol>
+    </dl>
+        <dl>
+            <dt>Definition lists (create this same  definition list here)</dt>
+                <dd>are used to define terminology</dd>
+            <dt>Second benefit of Definition lists</dt>
+                <dd>are customizable</dd>
+        </dl>
+
+    <p>Create a table like the one showing below </p>
+
+
+
+                <table>
+                    <thead>
+
+                        <tr>
+                <th colspan="2">CIT 230 Class</th>
+                        </tr>
+                    </thead>
+                        <tr>
+
+
+                   <th scope="row">html</th>
+                            <th rowspan="3"><div class="a">Topic</div></th>
+                        </tr>
+                        <tr>
+            <th scope="row">css</th>
+
+
+                        </tr>
+                        <tr>
+
+
+                            <th scope="row">javascript</th>
+
+                        </tr>
+
+                        <tr>
+                            <th scope="row"></th>
+                            <td> let's build some websites!</td>
+                        </tr>
+
+
+
+
+            <tfoot>
+<tr>
+                   <td colspan="2"> data compiled by &lt;type in your name&gt; in the cit230 class
+                       </td>
+                </tr>
+    </tfoot>
+
+        </table>
+        <p>Creating Links:</p>
+        <p>Using the image below as the folder structure, pretend that you are currently in an html document located in the html folder. Please make<br> relative link paths in the html code for the following to retrieve the instructions.html document (even though you do not have that doc and<br> it will not actually retrieve), to retrieve the instructions.html as instructed in the names. </p>
+        <ul>
+            <li><a href="instruction.html">instructions.html--from textbook folder</a></li>
+            <li><a href="html/instruction.html">instructions.html--from html folder</a></li>
+            <li><a href="textbook/html/html5/instructions.html">instructions.html--from html5 folder</a></li>
+            <li><a href="textbook/css/instructions.html">instructions.html--from css folder</a></li>
+            <li><a href=#ordered> list (create a link to go to the ordered list of this page)</a></li>
+        </ul>
+
+</body>
+
+</html>

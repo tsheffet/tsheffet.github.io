@@ -1,0 +1,35 @@
+body {color:dimgrey;font-family:arial, helvetica;}
+header {width:50%;border:solid; line-height:50%}
+
+nav{color:#00FF00;background-color: rgb(247,209,210);text-indent:25px;text-align: center}
+nav ol {color: darkblue;font-size: 25px;text-align: center}
+nav ol li{color: darkblue; background-color: darkgray; float: left;text-align: center;}
+nav ol>li{background-color:darkgray;}
+div#left{width:30%;border:solid;}
+main{color: slategrey; font-size: 20px}
+main li{color:darkslategrey; font-size: 18px}
+main strong {color:purple;font-size:36px;margin-left:50px;}
+main img {height:150px;width:125px;}
+aside#home-page-asdie{font-size:8px;margin:24px; color:#00FF00;} /*green*/
+footer{color:rgb(0,0,0);} /*black*/
+footer ul{text-shadow:3px 3px 1px #777777;}
+footer ul li{display: inline;}
+h1{color:darkslateblue;text-align:center;font-family:cursive, arial;font-size:50px;font-style:italic;font-variant:small-caps;font-weight:bold;}
+h1.dropcap{font-weight:bold;font-size:3em;color:yellow;}
+h2{color:green;font-family:sans-serif;font-size:10px;text-align:center;}
+h4{color: green;}
+th{letter-spacing: -.25em;}
+td{text-decoration: line-through;}
+dd{word-spacing:1.5em;}
+a:hover{font-weight:bold; color:black;}
+
+{color:rgb(0,0,255);} /*blue*/
+.dropcap::first-letter {color:purple;font-size:600%;}
+.sitebranding{font-size:6px; background-color:aqua}
+{font-weight:bold;}
+.fs2em {font-size:2em;}
+.fs2ex {font-size:2ex;}
+.fs24px {font-size:24px;}
+.fs120prcnt {font-size:120%;}
+.fs24pt {font-size:24pt;}
+.fsin {font-size:.5in;}
