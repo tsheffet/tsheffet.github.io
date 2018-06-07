@@ -1,9 +1,9 @@
 body {color:dimgrey;font-family:arial, helvetica;}
-header {width:50%;border:solid; line-height:50%}
+header {width:100%;border:solid; line-height:50%}
 
-nav{color:#00FF00;background-color: rgb(247,209,210);text-indent:25px;text-align: center}
+nav{color:#00FF00;background-color: rgb(247,209,210);text-indent:25px;text-align: center;border: thin black}
 nav ol {color: darkblue;font-size: 25px;text-align: center; margin-left: auto}
-nav ol li{color: darkblue; background-color: darkgray; float: left;text-align: center;}
+nav ol li{color: darkblue; background-color: darkgray; float: left;text-align: center;margin-left: auto}
 nav ol>li{background-color:darkgray;}
 div#left{width:30%;border:solid;}
 main{color: slategrey; font-size: 20px}
@@ -22,8 +22,8 @@ th{letter-spacing: -.25em;}
 td{text-decoration: line-through;}
 dd{word-spacing:1.5em;}
 a:hover{font-weight:bold; color:black;}
-
-{color:rgb(0,0,255);} /*blue*/
+/*
+{color:rgb(0,0,255);} /*blue
 .dropcap::first-letter {color:purple;font-size:600%;}
 .sitebranding{font-size:6px; background-color:aqua}
 {font-weight:bold;}
@@ -32,4 +32,4 @@ a:hover{font-weight:bold; color:black;}
 .fs24px {font-size:24px;}
 .fs120prcnt {font-size:120%;}
 .fs24pt {font-size:24pt;}
-.fsin {font-size:.5in;}
+.fsin {font-size:.5in;}*/

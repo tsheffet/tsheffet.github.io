@@ -1,0 +1,74 @@
+body {margin top:auto;font-size: 20px;font-color: darkblue}
+
+/*For the head*/
+header {border:solid medium black; line-height:75%;margin-top:10px;text-align: center;font-size: 50px}
+
+/*Navigation links*/
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: maroon;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    /* Option 1 - Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+main{text-align: center;margin-left: 30%}
+
+
+/*This is for the lay out*/
+div#left-col{width:3%;height: 3000px;float:left}
+
+main {width:34%;height:3000px;float:left}
+
+aside{width: 33%;height: 3000px;list-style: none;float: left}
+
+footer {clear: left;position: fixed;text-align: center;width: 100%;bottom: 0px;font-size: 20px;font color: white}
+
+/*apply colors to look like ppt*/
+header {background-color:grey;color: maroon}
+nav{background-color:grey;}
+div#left-col{background-color:grey;}
+main{backgroun-color:white;}
+div#right-col{background-color:grey;}
+aside{background-color:maroon;}
+footer{background-color:darkgray;}
+body {background-color:white; margin-top:-1em;}
