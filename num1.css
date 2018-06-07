@@ -1,4 +1,4 @@
-body {margin top:auto;font-size: 20px;font-color: darkblue}
+body {font-size: 20px;color: black}
 
 /*For the head*/
 header {border:solid medium black; line-height:75%;margin-top:10px;text-align: center;font-size: 50px}
@@ -61,14 +61,15 @@ main {width:34%;height:3000px;float:left}
 
 aside{width: 33%;height: 3000px;list-style: none;float: left}
 
-footer {clear: left;position: fixed;text-align: center;width: 100%;bottom: 0px;font-size: 20px;font color: white}
+footer {clear: left;position: fixed;text-align: center;width: 100%;bottom: 0px;font-size: 20px;color: white}
 
 /*apply colors to look like ppt*/
 header {background-color:grey;color: maroon}
 nav{background-color:grey;}
 div#left-col{background-color:grey;}
-main{backgroun-color:white;}
+main{background:white;}
 div#right-col{background-color:grey;}
 aside{background-color:maroon;}
 footer{background-color:darkgray;}
-body {background-color:white; margin-top:-1em;}
+body{background-color:white; margin-top:-1em;}
+}
