@@ -3,39 +3,43 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>the-five-divs-orig.html</title>
+    <title>the-five-divs-grid.html</title>
     <style type="text/css">
-        div {
-            width: 150px;
-            height: 100px;
-            border: solid thin;
-            font-size: 18px;
+        body{margin: 0px}
+        .grid-container{
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            justify-content: center;
+            grid-gap: 30px 20%;
+            background-color: aliceblue;
+            padding: 20%;
+        }
+
+        .grid-container > div {
+            background-color: yellow;
+            text-align: center;
+            padding: 20% 0%;
+            font-size: 30px;
+
+        }
+
+        .item3{
+            grid-area: 1 / 2 / 3 / 3;
+
+        }
+
         }
     </style>
 
 </head>
 
 <body>
-
-    <div id="div1">
-        this is div one
-
-    </div>
-
-    <div id="div2">
-        this is div two
-
-    </div>
-    <div id="div3">
-        this is div three
-
-    </div>
-    <div id="div4">
-        this is div four
-
-    </div>
-    <div id="div5">
-        this is div five
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
 
     </div>
 
