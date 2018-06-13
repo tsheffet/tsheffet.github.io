@@ -51,15 +51,18 @@ header {border:solid medium black; line-height:75%;margin-top:10px;text-align: c
         margin-right: 10px;
     }
 
-main{text-align: center;padding-left: 30%}
+main{text-align: center;padding-left: 33%}
+
 
 
 /*This is for the lay out*/
-div#left-col{width:3%;height: 3000px;float:left}
+div#left-col{width:7%;height: 3000px;float:left}
 
-main {width:34%;height:3000px;float:left}
+main {width:30%;height:3000px;float:left}
 
-aside{width: 33%;height: 3000px;list-style: none;float: left}
+aside{width: 20%;height: 3000px;list-style: none;float: left}
+
+    aside a{text-align: center; color: white;float: inherit; }
 
 footer {clear: left;position: fixed;text-align: center;width: 100%;bottom: 0px;font-size: 20px;color: white}
 
@@ -71,5 +74,6 @@ main{background:white;}
 div#right-col{background-color:grey;}
 aside{background-color:maroon;}
 footer{background-color:darkgray;}
+    footer a{color:black;text-shadow: 100px}
 body{background-color:white; margin-top:-1em;}
 }
