@@ -3,6 +3,8 @@ body {font-size: 20px;color: black}
 /*For the head*/
 header {border:solid medium black; line-height:75%;margin-top:10px;text-align: center;font-size: 50px}
 
+<h1 style="font-size:10vw">Hello World</h1>
+
 /*Navigation links*/
 .nav ul {
     list-style: none;
