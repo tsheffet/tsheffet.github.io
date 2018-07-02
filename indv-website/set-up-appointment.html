@@ -6,6 +6,20 @@
 <meta name="description" content="latest information about patios">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>set up appointment</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#test1").text("Appointment set");
+            });
+            $("#btn2").click(function(){
+                $("#test2").html("<b>Hello world!</b>");
+            });
+            $("#btn3").click(function(){
+                $("#test3").val("Thank you");
+            });
+        });
+    </script>
 
     <link href="../num1.css" rel="stylesheet" type="text/css" >
     </head>
@@ -30,6 +44,15 @@
     <br>
     <main>
         <h2>Set up an Appointment</h2>
+        <p id="test1"></p>
+        <br>
+
+        Input name & number: <input type="text" id="test3" value="Type name & number">
+
+        <button id="btn1">Submit</button>
+
+
+        Or...
         Go ahead and give us a call, and we'll respond
 
         Contact us at 555-555-5555
